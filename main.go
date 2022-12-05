@@ -5,6 +5,7 @@ import (
 	"AdventOfCode2022/src/day2"
 	"AdventOfCode2022/src/day3"
 	"AdventOfCode2022/src/day4"
+	"AdventOfCode2022/src/day5"
 	"fmt"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
@@ -30,6 +31,9 @@ func main() {
 		break
 	case 4:
 		day4.Run()
+		break
+	case 5:
+		day5.Run()
 		break
 	}
 }
